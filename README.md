@@ -22,6 +22,8 @@ Data Preprocessing: Cleaning the data and preparing it for model training.
 
 Exploratory Data Analysis: Understanding the distributions and relationships between variables.
 
+Standardizing the dataset using the StandardScaler method to ensure all features have a mean of 0 and a standard deviation of 1.
+
 Multiple Linear Regression: Building and fitting the regression model using multiple predictors.
 
 Model Interpretation: Interpreting the regression coefficients to understand the impact of each predictor.
@@ -30,6 +32,8 @@ Model Evaluation: Using R² to assess the goodness-of-fit of the model.
 
 ## Key findings
 Model Coefficients: Each coefficient in the regression model represents the change in the diabetes outcome for a one-unit change in the predictor, holding other predictors constant.
+
+Standardization: All features were standardized using the StandardScaler method to ensure consistent scaling.
 
 Significant Predictors: Identification of significant predictors that have a notable impact on diabetes outcomes.
 
